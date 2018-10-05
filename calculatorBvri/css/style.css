@@ -1,0 +1,114 @@
+/*customize layout*/
+
+/*customize body*/
+body
+{
+    background-color:whitesmoke;
+}
+
+/*customize the division with the class name "container"*/
+.container
+{
+    width: 600px;
+    border: 1px solid lightcoral;
+    margin: 0 auto;
+}
+
+/*customize the division with the class name "result" */
+.result
+{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: arial;
+}
+
+/*customize the division with the class name "calculator" */
+.calculator
+{
+    background-color: white;
+    padding: 40px;
+    height: 450px;
+}
+
+/*customize unordered list within "calculator" division */
+.calculator ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*customize label within "calculator" division */
+.calculator label
+{
+    width: 100%;
+    display: block;
+    font-family: arial;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+/*customize select within "calculator" division */
+.calculator select
+{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+/*customize input within "calculator" division */
+.calculator input
+{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+/*customize footer*/
+footer
+{
+    font-size: 14px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/*customize buttons
+give buttons a different color when hovering over it*/
+input[type=reset]
+{
+    border-radius: 8px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid gray;
+    transition: 0.6s;
+}
+
+input[type=reset]:hover
+{
+    border-radius: 8px;
+    background-color: rgb(202, 202, 202); 
+    color: black; 
+    border: 2px solid gray;
+}
+
+input[type=submit]
+{
+    border-radius: 8px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+    transition: 0.6s;
+}
+
+input[type=submit]:hover
+{
+    border-radius: 8px;
+    background-color: rgb(247, 113, 113); 
+    color: black; 
+    border: 2px solid red;
+}
